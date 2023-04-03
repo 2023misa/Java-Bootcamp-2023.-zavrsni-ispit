@@ -1,0 +1,33 @@
+Zadatak vam je kreirati sustav za upravljanje vozilima u floti. Sustav bi trebao omogućiti 
+korisnicima dodavanje, pretraživanje, ispisivanje i brisanje vozila iz flote.
+Sustav bi trebao podržavati dva tipa vozila: automobili i kamioni. Automobili bi trebali imati 
+sljedeća svojstva:
+• Proizvođač, model, godina proizvodnje,, boja ,VIN (Vehicle Identification Number) 
+oznaka ,tip goriva, broj vrata, karoserija
+Kamioni bi trebali imati sljedeća svojstva:
+• Proizvođač, model, godina proizvodnje, boja, VIN oznaka, tip goriva, kapacitet tereta
+Sustav bi trebao podržavati sljedeće funkcionalnosti:
+• Dodavanje vozila u flotu: korisnik bi trebao moći unijeti podatke o vozilu (proizvođač, 
+model, godina proizvodnje, boja, VIN oznaka, tip goriva, i odgovarajuće dodatne 
+atribute za automobile i kamione), te dodati vozilo u flotu. Sustav bi trebao provjeriti 
+postoji li već vozilo s istom VIN oznakom u floti, te u slučaju da postoji, baciti iznimku 
+DuplicateVehicleException.
+• Pretraživanje vozila u floti: korisnik bi trebao moći pretražiti vozila u floti po 
+proizvođaču, modelu ili VIN oznaci te dobiti popis vozila koji zadovoljavaju kriterije 
+pretrage.
+• Ispisivanje vozila u floti: korisnik bi trebao moći dobiti popis svih vozila u floti.
+• Brisanje vozila iz flote: korisnik bi trebao moći unijeti VIN oznaku vozila koje želi 
+izbrisati iz flote. Sustav bi trebao provjeriti postoji li vozilo s tom VIN oznakom u floti, 
+te u slučaju da ne postoji, baciti iznimku NoSuchVehicleException.
+Sustav bi trebao biti implementiran korištenjem objektno-orijentirane paradigme, te bi 
+trebao koristiti sljedeće koncepte:
+• Klase i objekti
+• Nasljeđivanje
+• Polimorfizam
+• Sučelja
+• Iznimke
+• Kolekcije
+Napišite implementaciju klase VehicleManagerImpl koja implementira sučelje 
+VehicleManager.
+Osigurajte da se aplikacija ne sruši neovino o unosu korisnika. Osigurajte pravilno logiranje 
+događaja. Ne zaboravite na dokumentaciju!
